@@ -1,3 +1,4 @@
+#lyrics
 print("And I'd give up forever to touch you \n"
 "Cause I know that you feel me somehow\n"
 "You're the closest to heaven that I'll ever be\n"
