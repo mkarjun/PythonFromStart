@@ -12,5 +12,5 @@ meal_cost_dlr = float(meal_cost.replace("$", ""))
 tip_percentage = float(input(" Tip Percentage: "))
 tip_amount = meal_cost_dlr * ( tip_percentage / 100)
 total_cost = meal_cost_dlr + tip_amount
-print("Tip amount is: $", tip_amount)
-print("Total Cost is: $", total_cost)
+print(f"Tip amount is: ${round(tip_amount,2)}")
+print(f"Total Cost is: ${round(total_cost,2)}")
