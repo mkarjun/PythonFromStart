@@ -14,4 +14,4 @@ name=[arjun,aparna,shafeeq]
 print(name)
 
 for person in name :
-    print(person.get('Height'))
+    print(person.get('Name') + " : " ,person.get('Height'))
