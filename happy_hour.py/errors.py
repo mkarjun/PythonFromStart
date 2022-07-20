@@ -1,14 +1,14 @@
 # This method breaks up text into words for us
-def brak_words(text):
+def break_words(text):
     words = text.split()
     return words
 
 # Counts the number of words
 def count_words(words):
     len(words)
-
+    return len(words)
 # Sorts the words (alphabetically)
-def sortwords(words):
+def sort_words(words):
     words.sort()
     return words
 
@@ -30,7 +30,7 @@ def print_last_word(words):
 # Prints the first and last words of the sentence
 def print_first_and_last_word(sentence):
     words = break_words(sentence)
-    print_first_word(word)
+    print_first_word(words)
     print_last_word(words)
 
 
@@ -66,14 +66,14 @@ def print_last_verse():
 # sing(bottles)
 
 
-sentence = "I think it's interesting that 'cologne' rhymes with 'alone'"
+sentence = 'I think it\'s interesting that \'cologne\' rhymes with \'alone\''
 
 words = break_words(sentence)
 sorted_words = sort_sentence(sentence)
 
-print("\"{} " has {} words" " , format(sentence, count_words(words)))
-print("The words are:", words)
-print("The sorted words are:", sort_words)
+print("\"{}\" has {} words".format(sentence, count_words(words)))
+print(f"The words are:",count_words(sentence))
+print(f"The sorted words are:",sorted_words)
 
 print_first_word(words)
 print_last_word(words)
