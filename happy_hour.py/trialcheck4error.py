@@ -52,19 +52,22 @@ def sing(bottles):
             print_last_verse()
 
 def print_verse(bottles):
- print(bottles, "bottles of beer on the wall,", end=' ')
- print(bottles, "bottles of beer.")
- print("Take one down and pass it around,", end=' ')
- print(bottles - 1, "bottles of beer on the wall.\n")
+    print(bottles, "bottles of beer on the wall,", end=' ')
+    print(bottles, "bottles of beer.")
+    print("Take one down and pass it around,", end=' ')
+    print(bottles - 1, "bottles of beer on the wall.\n")
 
 def print_last_verse():
- print("No more bottles of beer on the wall,", end=' ') 
- print("no more bottles of beer.")
- print("Go to the store and buy some more,", end=' ')
- print("99 bottles of beer on the wall.\n")
+    print("No more bottles of beer on the wall,", end=' ') 
+    print("no more bottles of beer.")
+    print("Go to the store and buy some more,", end=' ')
+    print("99 bottles of beer on the wall.\n")
 
 # sing(bottles)
+
+
 sentence = 'I think it\'s interesting that \'cologne\' rhymes with \'alone\''
+
 words = break_words(sentence)
 sorted_words = sort_sentence(sentence)
 
